@@ -40,3 +40,13 @@ On that webpage, locate the link for Chrome’s drivers. Download the driver fro
 It will come as a zip file. Extract it to the directory/filepath of your choosing. 
 
 For best results, store it in a simple path, such as `/home/USERNAME/Drivers` or `C:\\USER\Drivers`. Save the filepath for reference.
+
+# Folder Structure
+1) CONFIG has the URL and Credential Details.
+2) PAGES has seperate files for each page that needs to be automated and each page has the collection of Webelements and its actions.
+3) TEST has the test cases files for each page.
+
+Command to run the Test
+```
+pytest/yatra_launch_page.py
+```
